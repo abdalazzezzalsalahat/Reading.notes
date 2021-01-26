@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## Welcome to Abd alaziz GitHub first Page
 
-You can use the [editor on GitHub](https://github.com/abdalazzezzalsalahat/Reading.notes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# About Markdown 
+I Learned about a lot of things in this [Page](https://guides.github.com/features/mastering-markdown/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+and then I Tried to applay some of that page contents, such as: 
 
-### Markdown
+1. Lists 
+1. Bulleted
+1. Numbered 
+2. URL's
+3. Images
+4. Headers
+5. Comments
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+then I Tied to add an Image Like So 
+![My Iamge](Desktop/602A3152.jpg)
+Using this Code 
+
+>
+> `![My Iamge](src)`
+>
+
+
+## GItHub Pages Video
+
+I Understood that GitHub Pages are build to make gathering **Projects** easear  
+even if you had that big Complex Project it will provide a strate line of puplishing Experience 
+with the Help of @Jekyll which is an opensource tool that tirns ~~Plain Text~~ files like this into websites  
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### MarkDown Syntax 
 
-- Bulleted
-- List
+It was easy to learn __Because__ almost _Everything_ in the ***Mastering MarkDown Page*** 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+**My Openion about the mind set** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Follow mo on Twitter at @abd_alsalahat
+Or you can visit my [GitHub Page](https://github.com/abdalazzezzalsalahat) 
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abdalazzezzalsalahat/Reading.notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abedalazizAlsalahat/reading-notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
