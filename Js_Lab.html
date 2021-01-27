@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <title> Js tutorial </title>
+    <style>
+        body{
+            background-image: url("https://design-online-logo.com/wp-content/uploads/2013/09/01791-car-ready-made-exclusive-logo-design-510x652.jpg");
+            color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box{
+            width: 65%;
+            height: 2000px;
+            background-color:#f06489;
+            box-shadow: black 0 0 5px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+        .img{
+            padding: 20px;
+            width: 250px;
+            margin-left: auto;
+            position: absolute;
+        }
+        .heading{
+            width: 100%;
+            text-align: center;
+            padding-top: 2em;
+            
+        }
+        .top-p{
+            font-size: 25px;
+        }
+        .imag{
+            width: 100%;
+        }
+        .PP1{
+            margin-top: 5em;
+            text-align: center;
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .opt{
+            width: 50%;
+            margin-top: -150px;
+        }
+    </style>
+<body>
+    <div class="box">
+        <div>
+            <img class="img" src="https://www.freepnglogos.com/uploads/cleveland-auto-show-car-logo-png-25.png">
+        </div>
+        <div class="heading">
+            <h1 style="font-size: 50px;">Autoscore</h1>
+            <h2>Car care</h4>
+        </div>
+        <div class="PP1">
+            <p class="top-p">
+                Autoscore is the first pre-owned vehicle inspection system in Jordan equipped with the latest 
+                approved tools by the Bosch GmbH which helps with the appropriate inspection based on testing 
+                more than 200 points in the vehicle, including vehicles’ structure and chassis, all mechanical 
+                and electrical systems and all other points , bumper to bumper check for all vehicle’s 
+                (Gasoline, Hybrids and Electric). 
+            </p>
+        </div>
+        <div class="PP1" >
+            <img class="imag" src="https://autoscore.com/assets/autoscore-en.png">
+        </div>
+        <div  class="PP1">
+            <h1 id="ownerName">Owner name</h1>
+            <h1 id="CarCompany">Car Company</h1>
+            <h2 id="CarModel">Car model</h2>
+            <h2 id="CareType">Care type</h2>
+            <h2 id="caredetail"></h2>
+        </div>
+        <div  class="PP1">
+            <img class="opt" id="sucess" hidden src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png">
+            <img class="opt" id="faliure" hidden src="https://cdn.pixabay.com/photo/2017/02/12/21/29/false-2061132_960_720.png">
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var ownerName = prompt("What is your Name?");
+    var CarCompany = prompt("What is your car company?");
+    var CarModel = prompt("What is your car Model?");
+    var CareType = prompt("What type of care would you like?");
+    var CareDetails;
+
+    if (CarModel > 1980 && CarModel <= 2000){
+        CareDetails = "you git a free wash";
+        document.getElementById("sucess").hidden = false;
+    }
+    else if(CarModel > 2000 && CarModel <= 2010){
+        CareDetails = "you git a free wash & free Polish";
+        document.getElementById("sucess").hidden = false;
+    }
+    else if(CarModel > 2010 && CarModel <= 2020){
+        CareDetails = "you git a free polish & 15% discount"; 
+        document.getElementById("sucess").hidden = false;
+    }
+    else if(CarModel > 2020){
+        CareDetails = "you git a free polish, free wash & 40% discount";
+        document.getElementById("sucess").hidden = false;
+    }
+    else{
+        CareDetails = "Sorry, we don't treat old models";
+        document.getElementById("faliure").hidden = false;
+    }
+
+    document.getElementById("ownerName").innerText = ownerName;
+    document.getElementById("CarCompany").innerText = CarCompany;
+    document.getElementById("CareType").innerText = CareType;
+    document.getElementById("caredetail").innerText = CareDetails;
+
+</script>
+
