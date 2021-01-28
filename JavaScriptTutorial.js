@@ -1,7 +1,7 @@
 var ownerName = prompt("What is your Name?");
 var CarCompany = prompt("What is your car company?");
 var CarModel = prompt("What is your car Model?");
-var CareType = prompt("What type of care would you like?");
+var CareType = prompt("What type of care would you like? short term check, long term check, seasonal check");
 var CareDetails;
 
 
