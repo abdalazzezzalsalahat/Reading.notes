@@ -56,3 +56,14 @@ for (var i=1; i<= number; i++){
     document.getElementById("counter").appendChild(star);
 
 }
+
+
+function showPics(){
+    document.getElementById("gallary").hidden = false;
+    document.getElementById("box").setAttribute("style", "height:3500px;");
+}
+function hidegal(){
+    document.getElementById("gallary").hidden = true;
+    document.getElementById("box").setAttribute("style", "height:2500px;");
+
+}

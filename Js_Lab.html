@@ -10,7 +10,6 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
         .box {
             width: 65%;
             height: 2500px;
@@ -21,37 +20,31 @@
             margin-top: 150px;
             margin-bottom: 150px;
         }
-
         .img {
             padding: 20px;
             width: 250px;
             margin-left: auto;
             position: absolute;
         }
-
         .heading {
             width: 100%;
             text-align: center;
             padding-top: 2em;
-
         }
-
         .top-p {
             font-size: 25px;
         }
-
         .imag {
             width: 100%;
         }
-
         .PP1 {
             margin-top: 5em;
             text-align: center;
             width: 75%;
             margin-left: auto;
             margin-right: auto;
+            align-items: center;
         }
-
         .opt {
             width: 50%;
             margin-top: -100px;
@@ -65,15 +58,42 @@
             width: 10%;
             height: 70px;
             float: right;
-            color: #32283d;
+        }
+        .btn{
+            width: 150px;
+            height: 50px;
+            background-image: url("https://i.pinimg.com/originals/2c/01/3d/2c013df0e45a9783a6c87efd3c88ff9b.jpg");
             text-align: center;
-            font-weight: lighter;
+            padding-top: 20px;
+            box-shadow: black 0 0 5px;
+            font-size: x-large;
+            border-radius: 7px;
+            margin-left: 40%;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+        .btn:hover{
+            background-color: #c8373c; /* Green */
+            color: white;
+        }
+        .PP2{
+            width: 90%;
+            height: auto;
+            padding: 5p;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gal{
+            width: 45%;
+            float: left;
+            height: auto;
+            padding: 5px;
         }
     </style>
 </head>
 
 <body>
-    <div class="box">
+    <div class="box" id="box">
         <div>
             <img class="img" src="https://www.freepnglogos.com/uploads/cleveland-auto-show-car-logo-png-25.png">
         </div>
@@ -112,8 +132,20 @@
         <div class="PP1">
             <img class="checkType" id="checktype" />
         </div>
+        <div class="PP1">
+            <div class="btn" inputmode="button" onclick="showPics();" ondblclick="hidegal()">click me</div>
+            <div class="PP2" id="gallary" hidden >
+                <img class="gal" src="https://www.mastermechanic.ca/blog/wp-content/uploads/2016/10/Inside-1.jpg"/>
+                <img class="gal" src="https://www.daytondailynews.com/resizer/6tjwtMjwgA4S8UDgrylON7p6cFk=/1066x600/cloudfront-us-east-1.images.arcpublishing.com/coxohio/GHX6NXBTXVGKKG3J2WO3JG4M2U.jpg"/>
+                <img class="gal" src="https://lh3.googleusercontent.com/proxy/gZU4In7jVfMZacXpm8-yN9yqIsNfwLb1XK96OISz7LkfCa1tTWRtC9DnlWNgkpOkYPY7WzNnX4uuPjzJC3LKsWQdbJZ_5uHhDPfiNXgWNCTM"/>
+                <img class="gal" src="https://thumbs.dreamstime.com/z/car-mechanic-workshop-checklist-engine-repair-diagnosis-vehicle-car-mechanic-workshop-checklist-167044070.jpg"/>
+                <img class="gal" src="https://previews.123rf.com/images/piksel/piksel1711/piksel171100119/91013923-car-mechanic-changing-tires.jpg"/>
+                <img class="gal" src="https://st3.depositphotos.com/2234518/17561/i/1600/depositphotos_175619374-stock-photo-car-mechanic-workshop.jpg"/>
+            </div>
+        </div>
     </div>
     <script src="JavaScriptTutorial.js"></script>
 </body>
 
 </html>
+
